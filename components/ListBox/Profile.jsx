@@ -3,6 +3,7 @@ import { DEVELOPERS } from "../../services/data/developers";
 import ProfileBox from "./Box/ProfileBox";
 
 export default function ProfileList() {
+  /* Define o modo de rolagem entre os perfis dos desenvolvedores. */
   const { width } = Dimensions.get("window");
   const perfilCenter = DEVELOPERS.map((y, posX) => posX * (width * 0.8) + posX  * 40 )
   return ( 
