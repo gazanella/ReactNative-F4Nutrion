@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "F4Nutrion",
+    "slug": "F4Nutrion",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./configs/icons/icon.png",
+    "splash": {
+      "image": "./configs/splash/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ff6638"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./configs/icons/adaptiveicon.png",
+        "backgroundColor": "#FFF"
+      },
+      "package": "com.alexvieirask.F4Nutrion"
+    }
+  }
+}
