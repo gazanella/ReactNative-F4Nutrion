@@ -56,15 +56,17 @@ export default function ModalDeleteNote({ showAlert, setShowAlert, id }) {
       alignItems: "center",
     },
   });
+  /*Fechamento do alerta.*/
   function onClose() {
     setShowAlert(false);
   }
+  /*Redireciona à página principal do aplicativo.*/
   function redirectToHome() {
     setTimeout(() => {
       navigation.navigate("BottomTabs");
     }, 500);
   }
-
+  /*Deleta a nota pelo id.*/
   function onDelete() {
     noteDelete(id);
     onClose();
