@@ -2,7 +2,6 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   SafeAreaView: {
     flex: 1,
-
   },
 
   tittle: {
@@ -11,7 +10,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   paragraph: {
-    marginTop:'5%',
+    marginTop: "5%",
     fontSize: 16,
     textAlign: "justify",
   },
@@ -24,9 +23,6 @@ const styles = StyleSheet.create({
   body: {
     paddingVertical: "5%",
     paddingHorizontal: "5%",
-
-  
-  
   },
 });
 export { styles };
