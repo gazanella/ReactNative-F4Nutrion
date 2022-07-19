@@ -3,7 +3,8 @@ import { useEffect, useState } from "react";
 
 export default function NothingToShow({ label }) {
   const [opacity, setOpacity] = useState(new Animated.Value(0));
-
+  
+  /* Define a animação do texto. */
   function __init__() {
     Animated.loop(
       Animated.sequence([
@@ -20,7 +21,7 @@ export default function NothingToShow({ label }) {
       ])
     ).start();
   }
-
+  
   const styles = StyleSheet.create({
     container: {
       flex: 1,
