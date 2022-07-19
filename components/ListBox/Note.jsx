@@ -29,7 +29,7 @@ export default function NoteList({ note }) {
       backgroundColor: "white",
     },
   });
-
+  /* Redireciona para a página de detalhes da nota. */
   function noteNavigation() {
     navigation.navigate("NoteInfo", { note });
   }
