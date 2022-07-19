@@ -3,6 +3,7 @@ import { View, TextInput, Text, StyleSheet } from "react-native";
 import COLORS from "../../services/const/colors";
 import FONTS from "../../services/const/fonts";
 
+/* Criação de um botão dinâmico. */
 export function OrangeInput({
   value,
   label,
