@@ -16,7 +16,9 @@ import COLORS from "../../services/const/colors";
 import FONTS from "../../services/const/fonts";
 
 export default function BottomTabs() {
+  /*Criação da variável da barra de navegação.*/
   const Tab = createBottomTabNavigator();
+  /*Definição padrão da barra.*/
   const main_tab = {
     tabBarInactiveBackgroundColor: COLORS.ORANGE_MID,
     tabBarActiveTintColor: COLORS.ORANGE_STRONG,
@@ -30,6 +32,7 @@ export default function BottomTabs() {
   };
 
   return (
+    /*Definição de cada botão da barra.(cada página)*/
     <Tab.Navigator backBehavior="history" screenOptions={main_tab}>
       <Tab.Screen
         name="Home"
